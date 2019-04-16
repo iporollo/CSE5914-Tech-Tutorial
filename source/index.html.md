@@ -21,7 +21,7 @@ Welcome to the TensorFlow tutorial created by Sprint4.
 
 In this tutorial, we plan to give you a high level overview of what TensorFlow actually is. 
 
-Apart from describing TenserFlow, we also want to show you how to use it in real world projects. We provided two two real world examples (with code) that can be found after the overview. 
+Apart from describing TenserFlow, we also want to show you how to use it in real world projects. We provided two real world examples (with code) that can be found after the overview. 
 
 We hope you enjoy this gentle introduction to TensorFlow.
 
