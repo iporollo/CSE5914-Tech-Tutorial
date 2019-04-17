@@ -114,6 +114,8 @@ Next, the code will load all the labels for the dataset and also convert the dat
 
 This will ensure that the data is in the correct format for our code to train on the images.
 
+The images will also be labeled in order for the program to be able to recognize and train using the images.
+
 >This code will load labels for the dataset
 
 ``` python
@@ -230,11 +232,17 @@ plt.imshow(image_np)
 
 ```
 
+
+![](./images/ODI1.png)
+
+![](./images/ODI2.png)
+
+
 ##Live Object Detection
 
 Finally, we will change this program to use live object detection. This will take a few tweaks to the original code, but will allow our program to use the computer's webcam to analyze images in real time and identify objects. 
 
-First, a new library will need to be imported in order to use the live camera. This only takes an import and getting video capture using the cv2 library.
+First, a new library will need to be imported in order to use the live camera. This only takes an import and getting video capture using the OpenCV (or cv2) library.
 
 Next, We will no longer need to load images from a directory, as OpenCV will take care of it.
 
@@ -243,6 +251,8 @@ We will no longer use matplotlib for the final image as OpenCV can also do this.
 This code will use OpenCV in order to use the camera object to open a new window named "Object_Detection" which will grab images from the camera.
 
 >Add the new import to the code after the previous imports
+
+
 
 ``` python
 import cv2
@@ -282,9 +292,14 @@ if cv2.waitKey(25) & 0xFF == ord('q'):
   break
 ```
 
+![](./images/ODI3.png)
 ##Final Code
 
-Now, we have our final code for detecting objects in real time using TensorFlow. Thanks for using our tutorial and enjoy all that TensorFlow has to offer!
+Now, we have our final code for detecting objects in real time using TensorFlow. 
+
+After all of the revisions, this code now detects objects in real time using the computers camrea and classify the objects found.
+
+Thanks for using our tutorial and enjoy all that TensorFlow has to offer!
 
 Thanks!
 
