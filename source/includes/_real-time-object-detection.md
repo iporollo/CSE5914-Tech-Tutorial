@@ -297,7 +297,7 @@ if cv2.waitKey(25) & 0xFF == ord('q'):
 
 Now, we have our final code for detecting objects in real time using TensorFlow. 
 
-After all of the revisions, this code now detects objects in real time using the computers camrea and classify the objects found.
+After all of the revisions, this code now detects objects in real time using the computers camera and classify the objects found.
 
 Thanks for using our tutorial and enjoy all that TensorFlow has to offer!
 
